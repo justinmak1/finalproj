@@ -2,7 +2,10 @@
     display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
-.product-card img{
-     width: 100%;
-    height: auto;
+.product-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;     
+  object-fit: cover;        
+  object-position: center;  
+  border-radius: 8px;       
 }
