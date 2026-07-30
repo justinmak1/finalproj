@@ -29,15 +29,13 @@ h1{
 }
 
 .card{
-    background:white;
-    padding:15px;
+    background:#FFD700;
+    padding:25px;
     text-align:center;
-    border-radius:8px;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    min-height:320px;
+    border-radius:15px;
+    transition:transform 0.3s;
 }
+
 
 .card img{
     width:100%;
@@ -92,11 +90,4 @@ th{
     padding:12px 30px;
     border-radius:25px;
     font-weight:bold;
-}
-.card{
-    background:#FFD700;
-    padding:25px;
-    text-align:center;
-    border-radius:15px;
-    transition:transform 0.3s;
 }
