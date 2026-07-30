@@ -93,3 +93,10 @@ th{
     border-radius:25px;
     font-weight:bold;
 }
+.card{
+    background:#FFD700;
+    padding:25px;
+    text-align:center;
+    border-radius:15px;
+    transition:transform 0.3s;
+}
